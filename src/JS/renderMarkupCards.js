@@ -3,6 +3,9 @@ import 'animate.css';
 export default function renderMarkupCards(events) {
   const markup = events
     .map(event => {
+      if (event._embedded.venues[0].name === undefined) {
+        event._embedded.venues[0].name = 'no info';
+      }
       return `
     <div class='photo-card animate__animated animate__zoomIn' data-div='event' data-id='${event.id}'>
     <div class="wraper">

@@ -8,7 +8,7 @@ body.dark-theme {
   background: linear-gradient(180deg, #0e0e0e 15%, white 20%, #f9f9f9 119%);
 
   color: var(--p-text-color);
-  .btn-toggle{
+  .btn-toggle {
     background-image: url('../img/sun.gif');
     background-size: 27px;
   }
@@ -30,7 +30,6 @@ body.dark-theme {
   background-size: contain;
   z-index: 1000;
 }
-
 
 .header {
   overflow: hidden;
@@ -156,7 +155,6 @@ body.dark-theme {
   height: 40px;
   padding-left: 17px;
   appearance: none;
-  // background: url(../img/sprite.svg#Polygon) no-repeat right;
   -webkit-appearance: none;
   -moz-appearance: none;
   -webkit-tap-highlight-color: transparent;
