@@ -1,12 +1,13 @@
 [
   {
-    "countryCode": "US",
+    "countryCode": "AU",
     "country": "Select a country"
   },
   {
-    "countryCode": "US",
-    "country": "United States Of America"
+    "countryCode": "AU",
+    "country": "Australia"
   },
+
   {
     "countryCode": "AD",
     "country": "Andorra"
@@ -19,10 +20,7 @@
     "countryCode": "AR",
     "country": "Argentina"
   },
-  {
-    "countryCode": "AU",
-    "country": "Australia"
-  },
+
   {
     "countryCode": "AT",
     "country": "Austria"
@@ -330,6 +328,10 @@
   {
     "countryCode": "UY",
     "country": "Uruguay"
+  },
+  {
+    "countryCode": "US",
+    "country": "United States Of America"
   },
   {
     "countryCode": "VE",
