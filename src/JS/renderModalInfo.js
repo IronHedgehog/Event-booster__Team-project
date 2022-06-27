@@ -2,6 +2,25 @@ import Notiflix from 'notiflix';
 
 export default function renderModalInfo(name) {
   try {
+    if (name.info == null) {
+      name.info = 'no information';
+    }
+    if (name.dates.start.localDate === undefined) {
+      name.dates.start.localDate = 'no information';
+    }
+    if (name.dates.start.localTime === undefined) {
+      name.dates.start.localTime = 'no information';
+    }
+    if (name.priceRanges[0].min === null) {
+      name.priceRanges[0].min = '-';
+    }
+    if (name.priceRanges[0].max === undefined) {
+      name.priceRanges[0].max = '-';
+    }
+    if (name.priceRanges[0].currency === undefined) {
+      name.priceRanges[0].currency = '-';
+    }
+
     const renderMarkup = `
     <div class="backdrop">
   <div class="modal-js">
