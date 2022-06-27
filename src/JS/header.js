@@ -76,7 +76,7 @@ function onInput(event) {
     })
     .catch(err => {
       if ((err = "Cannot read properties of undefined (reading 'events'")) {
-        Notiflix.Notify.failure('something went wrong');
+        Notiflix.Notify.failure('nothing here');
         // refs.gallery.innerHTML = '';
         // refs.selectCountry.value = '';
         // refs.pageCount.innerHTML = '';
